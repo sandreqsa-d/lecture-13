@@ -1,3 +1,8 @@
+import iphoneImage from './images/iphone.jpeg';
+import jordansImage from './images/jordans.jpeg';
+import snickersImage from './images/snickers.jpeg';
+
+
 const Task = () => {
 
     // PRODUCT CARD
@@ -13,11 +18,13 @@ const Task = () => {
     }
 
     // PRODUCT LIST
-    const ProductList = [
-        { name: "iPhone", price: "$999", image: "./images/iphone.jpeg", description: "Apple phone" },
-        { name: "Air Jordan", price: "$250", image: "./images/jordans.jpeg", description: "Sneakers" },
-        { name: "Snickers", price: "$2", image: "./images/snickers.jpeg", description: "Chocolate" },
-    ]
+
+
+const ProductList = [
+  { name: "iPhone", price: "$999", image: iphoneImage, description: "Apple phone" },
+  { name: "Air Jordan", price: "$250", image: jordansImage, description: "Sneakers" },
+  { name: "Snickers", price: "$2", image: snickersImage, description: "Chocolate" },
+];
 
 
     //MAIN RETURN
